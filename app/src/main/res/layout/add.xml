@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".Add">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:minHeight="?attr/actionBarSize"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/colorPrimary">
+
+	</android.support.v7.widget.Toolbar>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:padding="16dp">
+
+		<EditText
+			android:id="@+id/et_title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="Judul"
+			android:inputType="text"
+			android:textStyle="bold"
+			android:background="@drawable/paper"/>
+
+		<EditText
+			android:id="@+id/et_content"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:hint="Tuliskan Catatan"
+			android:inputType="textMultiLine"
+			android:gravity="top|start"
+			android:background="@drawable/paper"
+			android:layout_marginTop="5dp"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="5dp">
+
+			<Button
+				android:id="@+id/btn_delete"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Hapus"
+				android:textColor="#ffffff"
+				android:textAllCaps="false"
+				android:background="#F44336"
+				android:paddingLeft="16dp"
+				android:paddingRight="16dp"
+				android:layout_marginRight="4dp"
+				android:layout_marginEnd="4dp"/>
+
+			<Button
+				android:id="@+id/btn_save"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Simpan"
+				android:textColor="#ffffff"
+				android:textAllCaps="false"
+				android:background="#4CAF50"
+				android:paddingLeft="16dp"
+				android:paddingRight="16dp"
+				android:layout_marginLeft="4dp"
+				android:layout_marginStart="4dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

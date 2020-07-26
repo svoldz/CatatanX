@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".About">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:minHeight="?attr/actionBarSize"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/colorPrimary">
+
+	</android.support.v7.widget.Toolbar>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:padding="16dp">
+
+		<TextView
+			android:id="@+id/about_judul"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="CatatanX Versi Beta 1.1"
+			android:inputType="text"
+			android:textStyle="bold"
+			android:textColor="@color/colorPrimary"
+			android:background="@drawable/paper"
+			android:gravity="center"/>
+
+		<TextView
+			android:id="@+id/about_deskripsi"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:text="CatatanX merupakan aplikasi catatan kegiatan harian yang di desain se sederhana mungkin, baik untuk mencatat aktivitas harian maupun diary. Untuk saat ini CatatanX masih dalam tahap pengembangan."
+			android:inputType="textMultiLine"
+			android:gravity="top|start"
+			android:background="@drawable/paper"
+			android:layout_marginTop="5dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
