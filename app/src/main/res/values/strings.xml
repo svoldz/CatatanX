@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CatatanX</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="drawer_close" translatable="false">Close nav drawer</string>
+    <string name="drawer_open" translatable="false">Open nav drawer</string>
+	
+</resources>
